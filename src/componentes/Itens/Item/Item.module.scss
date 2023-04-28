@@ -1,0 +1,110 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 25px;
+    
+    &__card {
+      display: flex;
+      width: 40%;
+      max-height: 200px;
+      background-color: white;
+      color: black;
+      border-radius: 12px;
+  
+      &:hover {
+          transform: scale(1.020);
+          transition: 0.25s;
+      }
+    }
+  
+    &__imagem {
+        width: 35%;
+        padding: 10px;
+        border-radius: 15px;
+    }
+  
+    &__informacoes {
+        width: 100%;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+  
+    &__nome {
+        font-size: 1.7rem;
+        color: black;
+    }
+  
+    &__descricao {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 13px 0;
+        color: rgba(74, 74, 74, 1);
+    }
+    
+    &__categoriaPreco {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    &__categoria {
+        text-transform:uppercase;
+        background-color: rgba(1, 28, 36, 1);
+        padding: 5px;
+        color: white;
+        width: 100px;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+    &__preco {
+        color: rgba(215, 0, 0, 1);;
+        font-size: 1.38rem;
+    }
+  }
+  
+  @media (max-width: 860px) {
+      .cards{        
+          &__card {
+              width: 100%;
+              margin: 2px 50px;
+              max-height: 270px;
+          }
+      }
+  }
+  
+  @media (max-width: 435px) {
+      .cards{        
+          &__nome {
+              font-size: 1rem;
+          }
+          &__descricao {
+              font-size: 0.75rem;
+          }
+          &__categoria{
+              width: 70px;
+              font-size: .60rem;
+          }
+          &__preco {
+              font-size: 1rem;
+          }
+      }
+  }
+  
+  
+  @media (max-width: 348px) {
+      .cards{     
+          &__card {
+              max-height: 190px;
+          }
+  
+          &__categoriaPreco {
+              flex-direction: column;
+              align-items: self-start;
+              gap: 9px;
+          }
+      }
+  }

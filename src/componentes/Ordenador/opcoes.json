@@ -1,0 +1,30 @@
+[
+    {
+      "nome": "",
+      "value": ""
+    },
+    {
+      "nome": "Preço",
+      "value": "preco"
+    },
+    {
+      "nome": "Caranguejo",
+      "value": "caranguejos"
+    },
+    {
+      "nome": "Camarão",
+      "value": "camaroes"
+    },
+    {
+      "nome": "Lagosta",
+      "value": "lagostas"
+    },
+    {
+      "nome": "Ostra",
+      "value": "ostras"
+    },
+    {
+      "nome": "Polvo",
+      "value": "polvos"
+    }
+]

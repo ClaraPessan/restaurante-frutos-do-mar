@@ -1,0 +1,17 @@
+.container {
+    background-color: rgba(6, 78, 120, 0.429);
+    display: flex;
+    flex-direction: column;
+    margin: 50px 40px;
+    border-radius: 20px;
+
+    &__titulo {
+        margin: 15px 15px 0 40px;
+        text-transform: uppercase;
+    }
+
+    &__texto {
+        margin: 15px 40px;
+        line-height: 1.5rem;
+    }
+}

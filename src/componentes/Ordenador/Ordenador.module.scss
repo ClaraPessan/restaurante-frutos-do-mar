@@ -1,0 +1,42 @@
+.ordenador {
+    align-items: center;
+    background-color: rgba(47, 132, 169, 0.33);
+    border: none;
+    width: 200px;
+    border-radius: 8px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    padding: 5px 15px;
+    cursor: pointer;
+    position: relative;
+    &--ativo {
+        background-color: rgba(47, 132, 169, 0.33);
+    }
+    &__options {
+      display: none;
+      position: absolute;
+      left: 0;
+      flex-direction: column;
+      top: 100%;
+      width: 100%;
+      &--ativo {
+        display: flex;
+      }
+    }
+    &__option {
+      align-items: center;
+      background-color: rgb(23, 70, 90);
+      border-top: 1px solid rgb(165, 165, 165);
+      box-sizing: border-box;
+      display: flex;
+      height: 35px;
+      justify-content: center;
+      width: inherit;
+      &:hover,
+      &--ativo {
+        background-color: rgb(12, 51, 69);
+        cursor: pointer;
+      }
+    }
+  }

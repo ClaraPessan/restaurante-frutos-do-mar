@@ -1,0 +1,68 @@
+[
+    {
+      "title": "Caranguejo Assado",
+      "description": "Caranguejo inteiro temperado com especiarias e assado até dourar. Servido com limão e manteiga.",
+      "photo": "/assets/pratos/foto1.jpg",
+      "price": 59.99,
+      "id": 1,
+      "category": {
+        "id": 1,
+        "label": "Caranguejos"
+      }
+    },
+    {
+      "title": "Polvo Assado",
+      "description": "Prato de polvo assado delicioso com aspargos e legumes.",
+      "photo": "/assets/pratos/foto2.jpg",
+      "price": 74.90,
+      "id": 2,
+      "category": {
+        "id": 1,
+        "label": "Polvos"
+      }
+    },
+    {
+      "title": "Porção de Camarões",
+      "description": "Porção de camarões grande frescos grelhados com azeite, alho, limão e temperos.",
+      "photo": "/assets/pratos/foto3.jpg",
+      "price": 65.00,
+      "id": 3,
+      "category": {
+        "id": 3,
+        "label": "Camarões"
+      }
+    },
+    {
+      "title": "Ostras Frescas",
+      "description": "Ostras servidas cruas e frescas, com um toque de limão e temperos.",
+      "photo": "/assets/pratos/foto4.jpg",
+      "price": 49.90,
+      "id": 4,
+      "category": {
+        "id": 4,
+        "label": "Ostras"
+      }
+    },
+    {
+      "title": "Combo Camarões",
+      "description": "Combo de camarões deliciosos com limão e alface",
+      "photo": "/assets/pratos/foto5.jpg",
+      "price": 45.00,
+      "id": 5,
+      "category": {
+        "id": 3,
+        "label": "Camarões"
+      }
+    },
+    {
+      "title": "Lagosta Cozida",
+      "description": "Nossa lagosta é cozida em água salgada e servida com manteiga derretida e limão.",
+      "photo": "/assets/pratos/foto6.jpg",
+      "price": 75.00,
+      "id": 6,
+      "category": {
+        "id": 1,
+        "label": "Lagostas"
+      }
+    }
+  ]
